@@ -1,0 +1,33 @@
+{
+  "cli": {
+    "version": ">= 14.2.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "node": "22.14.0",
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APP_VERSION": "1.1.0"
+      }
+    },
+    "preview": {
+      "node": "22.14.0",
+      "env": {
+        "EXPO_PUBLIC_APP_VERSION": "1.1.0"
+      },
+      "distribution": "internal"
+    },
+    "production": {
+      "node": "22.14.0",
+      "env": {
+        "EXPO_PUBLIC_APP_VERSION": "1.1.0"
+      },
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
