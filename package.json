@@ -52,7 +52,7 @@
     "expo-network": "~7.0.5",
     "expo-notifications": "~0.29.13",
     "expo-print": "~14.0.3",
-    "expo-router": "~4.0.20",
+    "expo-router": "~4.0.21",
     "expo-secure-store": "~14.0.1",
     "expo-sharing": "~13.0.1",
     "expo-splash-screen": "~0.29.24",
@@ -129,7 +129,8 @@
           "pg",
           "react-native-chart-kit",
           "react-native-modal",
-          "react-native-maps"
+          "react-native-maps",
+          "react-native-responsive-fontsize"
         ],
         "listUnknownPackages": false
       }
